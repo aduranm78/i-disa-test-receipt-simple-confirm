@@ -15,7 +15,8 @@ public class WmsParams {
 		Date startDate;
 		Date endDate;
 		JSONObject dates = new JSONObject();
-		TimeZone tz = TimeZone.getTimeZone("America/Mexico_City");
+		//TimeZone tz = TimeZone.getTimeZone("America/Mexico_City");
+		TimeZone tz = TimeZone.getTimeZone("GMT-6:00");
 
 		Date now = new Date(System.currentTimeMillis());
       	Calendar c = Calendar.getInstance();
